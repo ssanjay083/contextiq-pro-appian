@@ -60,7 +60,16 @@ The system acts as a **decision-support copilot**, not an automated decision-mak
 - Relevant policy clauses  
 - Page-level citations  
 - Warnings for outdated or conflicting rules  
-- Clear guidance inside Appian  
+- Clear guidance inside Appian
+
+  ## 🧠 Main Intuition
+
+ContextIQ Pro is built on a **GraphRAG-driven approach**.
+
+GraphRAG constructs a **relationship-aware knowledge graph** from policy documents, capturing connections such as **supersedes**, **conflicts_with**, and **applies_to**—capabilities that basic RAG systems miss.
+
+At runtime, the system queries this graph using the **active case context** to identify the most relevant policy paths and versions, enabling **reasoned, up-to-date, and verifiable guidance** with explicit citations.
+
 
 ## 🏗️ High-Level Architecture
 
