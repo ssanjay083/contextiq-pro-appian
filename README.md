@@ -1,6 +1,12 @@
 # ContextIQ Pro
 ## 🧠 Intelligent Knowledge Retrieval for Appian Case Management
 
+## 🔍 How to Explore
+
+- 📊 Review the PPT for the complete solution walkthrough and presentation content  
+- 📘 Read this README for the problem statement, core idea, high-level architecture, demo scenario, and prototype implementation plan  
+
+
 ## 📌 Overview
 
 ContextIQ Pro is a **GraphRAG-inspired AI knowledge assistant** designed to help Appian case workers make **accurate, compliant, and explainable decisions** by delivering the **right policy guidance at the right moment—directly inside their workflow**.
